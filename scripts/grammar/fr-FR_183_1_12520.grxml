@@ -1,0 +1,2463 @@
+﻿<?xml version="1.0" encoding="ascii"?>
+<grammar mode="voice" xml:lang="fr-FR" root="namesAndServices" tag-format="semantics/1.0" version="1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="namesAndServices" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#_madameboffyangelique12522" />
+        <tag>out.result = new Object();
+					out.result.recognizedword="BOFFYAngélique";
+					out.result.address="undefined";
+					out.result.name="Madame Angélique BOFFY";
+					out.result.entityid="12522";
+					out.result.parentid="12520";
+					out.result.wavefile="TTS_fr-FR_B52285598FF3861293011AB9CD9F8F2B.wav";
+					out.result.transfertnumber1="499";
+					out.result.transfertnumber2="undefined";
+					out.result.transfertnumber3="undefined";
+					out.result.AskConfirmation="True";
+					out.result.originalid="523";
+					out.result.isleaf="1";
+					out.result.recognitionThresholdMin="60";
+					out.result.recognitionThresholdMax="75";
+					out.result.routingNumberOnNonRecognition="1103";
+					out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_monsieurgottiromain12566" />
+        <tag>out.result = new Object();
+					out.result.recognizedword="GOTTIRomain";
+					out.result.address="undefined";
+					out.result.name="Monsieur Romain GOTTI";
+					out.result.entityid="12566";
+					out.result.parentid="12520";
+					out.result.wavefile="TTS_fr-FR_DCD41B574191B149626C53074C523F10.wav";
+					out.result.transfertnumber1="497";
+					out.result.transfertnumber2="undefined";
+					out.result.transfertnumber3="undefined";
+					out.result.AskConfirmation="False";
+					out.result.originalid="567";
+					out.result.isleaf="1";
+					out.result.recognitionThresholdMin="60";
+					out.result.recognitionThresholdMax="75";
+					out.result.routingNumberOnNonRecognition="1103";
+					out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_mademoiselletonlaveurdeborah12570" />
+        <tag>out.result = new Object();
+					out.result.recognizedword="TON LAVEURDeborah";
+					out.result.address="undefined";
+					out.result.name="Mademoiselle Deborah TON LAVEUR";
+					out.result.entityid="12570";
+					out.result.parentid="12520";
+					out.result.wavefile="TTS_fr-FR_71A5847E046699480CDBAE1D6CC50E4E.wav";
+					out.result.transfertnumber1="1105";
+					out.result.transfertnumber2="undefined";
+					out.result.transfertnumber3="undefined";
+					out.result.AskConfirmation="False";
+					out.result.originalid="2718";
+					out.result.isleaf="1";
+					out.result.recognitionThresholdMin="60";
+					out.result.recognitionThresholdMax="75";
+					out.result.routingNumberOnNonRecognition="1103";
+					out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_monsieurchiesifrederic12586" />
+        <tag>out.result = new Object();
+					out.result.recognizedword="CHIESIFrédéric";
+					out.result.address="undefined";
+					out.result.name="Monsieur Frédéric CHIESI";
+					out.result.entityid="12586";
+					out.result.parentid="12520";
+					out.result.wavefile="TTS_fr-FR_FC686BC6086255A9C170E92B4708556B.wav";
+					out.result.transfertnumber1="1102";
+					out.result.transfertnumber2="undefined";
+					out.result.transfertnumber3="undefined";
+					out.result.AskConfirmation="False";
+					out.result.originalid="4079";
+					out.result.isleaf="1";
+					out.result.recognitionThresholdMin="60";
+					out.result.recognitionThresholdMax="75";
+					out.result.routingNumberOnNonRecognition="1103";
+					out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_achats12521" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ACHATS";
+						out.result.name="Service ACHATS";
+						out.result.entityid="12521";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_60AB0B41FEA7584915842821160C2DCA.wav";
+						out.result.transfertnumber1="490";
+						out.result.originalid="522";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_commercialexport12526" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="COMMERCIAL EXPORT";
+						out.result.name="service COMMERCIAL EXPORT";
+						out.result.entityid="12526";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_1DEDEA225F8241DADE721B744A18BF00.wav";
+						out.result.transfertnumber1="462";
+						out.result.originalid="527";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_commercialfrance12534" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="COMMERCIAL FRANCE";
+						out.result.name="service COMMERCIAL France";
+						out.result.entityid="12534";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_4B71423EC7A7A05C123617B164824F23.wav";
+						out.result.transfertnumber1="467";
+						out.result.originalid="535";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_comptabilite12540" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="COMPTABILITE";
+						out.result.name="Service COMPTABILITE";
+						out.result.entityid="12540";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_CF8A05C4785CB9085C63B8AF068F587E.wav";
+						out.result.transfertnumber1="469";
+						out.result.originalid="541";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_expedition12544" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="EXPEDITION";
+						out.result.name="Service EXPEDITION";
+						out.result.entityid="12544";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_74352EFCA83E0DF855FDEE4BED7DB376.wav";
+						out.result.transfertnumber1="495";
+						out.result.originalid="545";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_informatique12546" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="INFORMATIQUE";
+						out.result.name="service Informatique";
+						out.result.entityid="12546";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_83BBB4D4B2ABE7C3F034A58599D1D9CA.wav";
+						out.result.transfertnumber1="1909";
+						out.result.originalid="547";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_maintenance12548" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="MAINTENANCE";
+						out.result.name="service MAINTENANCE";
+						out.result.entityid="12548";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_A4C39AB42DBDFE6C0468970AAFDD6605.wav";
+						out.result.transfertnumber1="759";
+						out.result.originalid="549";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_methodes12550" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="METHODES";
+						out.result.name="service METHODES";
+						out.result.entityid="12550";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_0BD07D7977723F0B781AAE315165C26E.wav";
+						out.result.transfertnumber1="701";
+						out.result.originalid="551";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_ordonnancement12553" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ORDONNANCEMENT";
+						out.result.name="service ORDONNANCEMENT";
+						out.result.entityid="12553";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_8627F196D6EBFF38FA75C24C6A7A5793.wav";
+						out.result.transfertnumber1="701";
+						out.result.originalid="554";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_production12555" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="PRODUCTION";
+						out.result.name="service PRODUCTION";
+						out.result.entityid="12555";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_C6AACA0E896AFAA651FE8626CC3A7EFD.wav";
+						out.result.transfertnumber1="466";
+						out.result.originalid="556";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_qualite12559" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="QUALITE";
+						out.result.name="Service QUALITE";
+						out.result.entityid="12559";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_47B7F5FB59DC8329853E14D97AF785F6.wav";
+						out.result.transfertnumber1="461";
+						out.result.originalid="560";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_technique12565" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="TECHNIQUE";
+						out.result.name="service Technique";
+						out.result.entityid="12565";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_296DBDB891C48BCBA7CDE55A17C6C20D.wav";
+						out.result.transfertnumber1="1922";
+						out.result.originalid="566";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="701";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_patients12571" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="PATIENTS";
+						out.result.name="Annuaire Patients";
+						out.result.entityid="12571";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_EE19885C25E39265C6BFEC6ED2BFD900.wav";
+						out.result.transfertnumber1="1103";
+						out.result.originalid="3586";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="1103";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_bidon12587" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="BIDON";
+						out.result.name="Service Bidon";
+						out.result.entityid="12587";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_8E13ABBF1DAD89B1081A2C6551F0E129.wav";
+						out.result.transfertnumber1="1102";
+						out.result.originalid="7494";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="10";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_validation12590" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="VALIDATION";
+						out.result.name="Service Validation";
+						out.result.entityid="12590";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_FB7BF8D77B870B4421F1E6E5F2C4C3FB.wav";
+						out.result.transfertnumber1="1102";
+						out.result.originalid="8687";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_accueil12592" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ACCUEIL";
+						out.result.name="service Accueil";
+						out.result.entityid="12592";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_4107A172128039A74B96DD382673EA3F.wav";
+						out.result.transfertnumber1="9";
+						out.result.originalid="10561";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_algologie12594" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ALGOLOGIE";
+						out.result.name="service Algologie";
+						out.result.entityid="12594";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_7F6A0F7114DFB938186129E37FC24A26.wav";
+						out.result.transfertnumber1="5218";
+						out.result.originalid="10563";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_anesthesiologie12599" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ANESTHÉSIOLOGIE";
+						out.result.name="service Anesthésiologie";
+						out.result.entityid="12599";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_D1D44F252019DA5832E20DAB86F94ABA.wav";
+						out.result.transfertnumber1="3264";
+						out.result.originalid="10568";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_angiologie12618" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ANGIOLOGIE";
+						out.result.name="service Angiologie";
+						out.result.entityid="12618";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_AC2E721EBA054FA6087F944880E43314.wav";
+						out.result.transfertnumber1="3309";
+						out.result.originalid="10587";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_assistancesociale12624" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ASSISTANCE SOCIALE";
+						out.result.name="service Assistance sociale";
+						out.result.entityid="12624";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_3D969ED2D465D8F1993BD9DF9F6DD4FE.wav";
+						out.result.transfertnumber1="1961";
+						out.result.originalid="10593";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_bureaudupersonnel12626" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="BUREAU DU PERSONNEL";
+						out.result.name=" Bureau du personnel";
+						out.result.entityid="12626";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_BE9A18A7B23A5E27F77CDB69EAEC09D4.wav";
+						out.result.transfertnumber1="4013";
+						out.result.originalid="10595";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_cardiologie12628" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="CARDIOLOGIE";
+						out.result.name="service Cardiologie";
+						out.result.entityid="12628";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_7814E9E51B28AF5E47D969F95CE074C7.wav";
+						out.result.transfertnumber1="3145";
+						out.result.originalid="10597";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_chirurgieplastique12635" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="CHIRURGIE PLASTIQUE";
+						out.result.name="service Chirurgie plastique";
+						out.result.entityid="12635";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_502F7A97579737976FB4A11780AD75D9.wav";
+						out.result.transfertnumber1="3219";
+						out.result.originalid="10604";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_chirurgiethoraciqueetvasculaire12637" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="CHIRURGIE THORACIQUE ET VASCULAIRE";
+						out.result.name="service Chirurgie thoracique et vasculaire";
+						out.result.entityid="12637";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_0D1FBD7E4766B7F8C2BE95F24B22F62B.wav";
+						out.result.transfertnumber1="3324";
+						out.result.originalid="10606";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_contentieux12640" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="CONTENTIEUX";
+						out.result.name="service Contentieux";
+						out.result.entityid="12640";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_EA90C5F4696586D81CDD03CA0401BE40.wav";
+						out.result.transfertnumber1="4032";
+						out.result.originalid="10609";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_dentisterie12642" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="DENTISTERIE";
+						out.result.name="service Dentisterie";
+						out.result.entityid="12642";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_6AEE424E1519DF8E2B6A55A9980CF299.wav";
+						out.result.transfertnumber1="3334";
+						out.result.originalid="10611";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_dermatologie12647" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="DERMATOLOGIE";
+						out.result.name="service Dermatologie";
+						out.result.entityid="12647";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_02B9AD7BCD47E2B3CDDDC3618B484012.wav";
+						out.result.transfertnumber1="3321";
+						out.result.originalid="10616";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_dietetique12649" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="DIÉTÉTIQUE";
+						out.result.name="service Diététique";
+						out.result.entityid="12649";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_58D1469EA2593270C7939233B7675B63.wav";
+						out.result.transfertnumber1="3143";
+						out.result.originalid="10618";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_digestif12651" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="DIGESTIF";
+						out.result.name="service Digestif";
+						out.result.entityid="12651";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_C8DB60EB5CA2A07ED43FF7DEDB737279.wav";
+						out.result.transfertnumber1="5822";
+						out.result.originalid="10620";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_dim12656" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="DIM";
+						out.result.name="service DIM";
+						out.result.entityid="12656";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_0C8A8ACB94F7D32B2307D5C2F9AD8CB1.wav";
+						out.result.transfertnumber1="5816";
+						out.result.originalid="10625";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_endocrinologie12658" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ENDOCRINOLOGIE";
+						out.result.name="service Endocrinologie";
+						out.result.entityid="12658";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_36126F10FB3B0B25F8FF3735E6B8051B.wav";
+						out.result.transfertnumber1="8732";
+						out.result.originalid="10627";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_gastroenterologie12662" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="GASTROENTÉROLOGIE";
+						out.result.name="service Gastroentérologie";
+						out.result.entityid="12662";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_0DBDA8326FB90768BC7B275B1DD97CD6.wav";
+						out.result.transfertnumber1="5814";
+						out.result.originalid="10631";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_geriatrie12670" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="GÉRIATRIE";
+						out.result.name="service Gériatrie";
+						out.result.entityid="12670";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_A435E2AE1B9F12B5D8880445F4C22E76.wav";
+						out.result.transfertnumber1="5275";
+						out.result.originalid="10639";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_gynecologie12672" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="GYNÉCOLOGIE";
+						out.result.name="service Gynécologie";
+						out.result.entityid="12672";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_DF55013AF7190593B5F2376F87FC377F.wav";
+						out.result.transfertnumber1="3243";
+						out.result.originalid="10641";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_kinesitherapie12681" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="KINÉSITHÉRAPIE";
+						out.result.name="service Kinésithérapie";
+						out.result.entityid="12681";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_24624D5683929CA59F4EDDF024B0BB16.wav";
+						out.result.transfertnumber1="3909";
+						out.result.originalid="10650";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_laboratoiredanalysesmedicales12697" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="LABORATOIRE D'ANALYSES MÉDICALES";
+						out.result.name="service Laboratoire d'analyses médicales";
+						out.result.entityid="12697";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_99162C13DCA7E1214C8C77907B286D44.wav";
+						out.result.transfertnumber1="5817";
+						out.result.originalid="10666";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_maternite12702" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="MATERNITÉ";
+						out.result.name="service Maternité";
+						out.result.entityid="12702";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_B81C9BB9A7E32203208601B4B755EAAA.wav";
+						out.result.transfertnumber1="5151";
+						out.result.originalid="10671";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_medecinedusport12704" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="MÉDECINE DU SPORT";
+						out.result.name="service Médecine du sport";
+						out.result.entityid="12704";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_4BB5EE68BC4475AD6AA65814CA2CF5B6.wav";
+						out.result.transfertnumber1="3109";
+						out.result.originalid="10673";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_neurochirurgie12706" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="NEUROCHIRURGIE";
+						out.result.name="service Neurochirurgie";
+						out.result.entityid="12706";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_B93C5E670C51FD18289C0141E6F39C7A.wav";
+						out.result.transfertnumber1="5818";
+						out.result.originalid="10675";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_neurologie12712" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="NEUROLOGIE";
+						out.result.name="service Neurologie";
+						out.result.entityid="12712";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_79673BB07ED2B4C1CB588165A2CF4AA4.wav";
+						out.result.transfertnumber1="3209";
+						out.result.originalid="10681";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_oncologie12717" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ONCOLOGIE";
+						out.result.name="service Oncologie";
+						out.result.entityid="12717";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_7DE320935B5ED4218AE8AD5A04EE9C1C.wav";
+						out.result.transfertnumber1="3314";
+						out.result.originalid="10686";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_ophtalmologie12722" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="OPHTALMOLOGIE";
+						out.result.name="service Ophtalmologie";
+						out.result.entityid="12722";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_858B8107BB8FD162D7F9361FCABF0EF0.wav";
+						out.result.transfertnumber1="3225";
+						out.result.originalid="10691";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_orl12729" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ORL";
+						out.result.name="service ORL";
+						out.result.entityid="12729";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_5B80D35F614B638B272EEE67C5C91B48.wav";
+						out.result.transfertnumber1="3235";
+						out.result.originalid="10698";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_orthesie12735" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ORTHÉSIE";
+						out.result.name="service Orthésie";
+						out.result.entityid="12735";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_B1F1CF6481D9BDB19B59A6E597824336.wav";
+						out.result.transfertnumber1="5215";
+						out.result.originalid="10704";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_orthopediedelahanche12738" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ORTHOPÉDIE DE LA HANCHE";
+						out.result.name="service Orthopédie de la hanche";
+						out.result.entityid="12738";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_3A0186EBF9D952C47AFB0C36731F7495.wav";
+						out.result.transfertnumber1="5827";
+						out.result.originalid="10707";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_orthopediedelamainetdupoignet12743" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ORTHOPÉDIE DE LA MAIN ET DU POIGNET";
+						out.result.name="service Orthopédie de la main et du poignet";
+						out.result.entityid="12743";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_9FC794B29AECDFE71278D13615633CAE.wav";
+						out.result.transfertnumber1="5828";
+						out.result.originalid="10712";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_orthopediedelepaule12747" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ORTHOPÉDIE DE L'ÉPAULE";
+						out.result.name="service Orthopédie de l'épaule";
+						out.result.entityid="12747";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_A1E3A13DE873DF6019A4EF911DB4405F.wav";
+						out.result.transfertnumber1="5829";
+						out.result.originalid="10716";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_orthopediedugenou12751" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ORTHOPÉDIE DU GENOU";
+						out.result.name="service Orthopédie du genou";
+						out.result.entityid="12751";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_B1F71BB205E7E615D8D0B357B5DDB2A6.wav";
+						out.result.transfertnumber1="5830";
+						out.result.originalid="10720";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_orthopediedupiedetdelacheville12754" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ORTHOPÉDIE DU PIED ET DE LA CHEVILLE";
+						out.result.name="service Orthopédie du pied et de la cheville";
+						out.result.entityid="12754";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_DEBAFC5B1EEBCBE2A4E44E60EB126D39.wav";
+						out.result.transfertnumber1="5826";
+						out.result.originalid="10723";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_orthophonie12759" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="ORTHOPHONIE";
+						out.result.name="service Orthophonie";
+						out.result.entityid="12759";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_A66D8F2B38423311D9E5782CFEE1C094.wav";
+						out.result.transfertnumber1="5208";
+						out.result.originalid="10728";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_pediatrie12761" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="PÉDIATRIE";
+						out.result.name="service Pédiatrie";
+						out.result.entityid="12761";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_CEDE06A2DA013EBF69C832AAA2975BE9.wav";
+						out.result.transfertnumber1="5820";
+						out.result.originalid="10730";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_pharmacie12767" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="PHARMACIE";
+						out.result.name="service Pharmacie";
+						out.result.entityid="12767";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_C48A4568EC5B756B16FDB31CAE15CF01.wav";
+						out.result.transfertnumber1="4831";
+						out.result.originalid="10736";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_pneumologie12771" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="PNEUMOLOGIE";
+						out.result.name="service Pneumologie";
+						out.result.entityid="12771";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_3A9C0692B2A08C10AF28019467D40422.wav";
+						out.result.transfertnumber1="5821";
+						out.result.originalid="10740";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_podologie12777" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="PODOLOGIE";
+						out.result.name="service Podologie";
+						out.result.entityid="12777";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_6BD1C49AF7095447F5141F236B7F6996.wav";
+						out.result.transfertnumber1="3107";
+						out.result.originalid="10746";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_psychiatrie12779" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="PSYCHIATRIE";
+						out.result.name="service Psychiatrie";
+						out.result.entityid="12779";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_D28A94B2A380E19F0E9802846CB9934D.wav";
+						out.result.transfertnumber1="3102";
+						out.result.originalid="10748";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_psychologie12781" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="PSYCHOLOGIE";
+						out.result.name="service Psychologie";
+						out.result.entityid="12781";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_E19432A07122175B05970112DC95A368.wav";
+						out.result.transfertnumber1="5177";
+						out.result.originalid="10750";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_radiologie12784" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="RADIOLOGIE";
+						out.result.name="service Radiologie";
+						out.result.entityid="12784";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_4BBA4F0AE998E26FD5894FBB10980888.wav";
+						out.result.transfertnumber1="295999";
+						out.result.originalid="10753";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_reeducationfonctionnelle12798" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="RÉÉDUCATION FONCTIONNELLE";
+						out.result.name="service Rééducation fonctionnelle";
+						out.result.entityid="12798";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_8B5D054A33968FBBA04078DA737C3630.wav";
+						out.result.transfertnumber1="3089";
+						out.result.originalid="10767";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_rhumatologie12800" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="RHUMATOLOGIE";
+						out.result.name="service Rhumatologie";
+						out.result.entityid="12800";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_10DA9BF1E33DB7F0B53289AA498F3A07.wav";
+						out.result.transfertnumber1="3164";
+						out.result.originalid="10769";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_servicepardefaut12803" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="SERVICE PAR DEFAUT";
+						out.result.name=" Service par defaut";
+						out.result.entityid="12803";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_7E1BE0BAB4CAE268EB435D5B01EB2F3E.wav";
+						out.result.transfertnumber1="";
+						out.result.originalid="10772";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_sterilisation12840" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="STÉRILISATION";
+						out.result.name="service Stérilisation";
+						out.result.entityid="12840";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_732C3C63D97F1E65006C525E82545026.wav";
+						out.result.transfertnumber1="5832";
+						out.result.originalid="10809";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_stomatologie12842" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="STOMATOLOGIE";
+						out.result.name="service Stomatologie";
+						out.result.entityid="12842";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_3D5917C970C95A511FB52B6B6C1A3612.wav";
+						out.result.transfertnumber1="5264";
+						out.result.originalid="10811";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_urgences12846" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="URGENCES";
+						out.result.name="service Urgences";
+						out.result.entityid="12846";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_AF753EB0C17F72A0D89C971713454921.wav";
+						out.result.transfertnumber1="4063";
+						out.result.originalid="10815";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_urologie12850" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="UROLOGIE";
+						out.result.name="service Urologie";
+						out.result.entityid="12850";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_7B5F619CA6C6302EA91DE9265634E423.wav";
+						out.result.transfertnumber1="5273";
+						out.result.originalid="10819";
+						out.result.isleaf="0";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="undefined";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_ressourceshumaines12563" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="RESSOURCES HUMAINES";
+						out.result.name="Service RESSOURCES HUMAINES";
+						out.result.entityid="12563";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_69D82EA68259B87181D38EEB945912F4.wav";
+						out.result.transfertnumber1="288";
+						out.result.originalid="564";
+						out.result.isleaf="1";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="1103";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+      <item>
+        <ruleref uri="#_standardselectarc12564" />
+        <tag>out.result = new Object();
+						out.result.recognizedword="STANDARD SELECTARC";
+						out.result.name="Service Standard SELECTARC";
+						out.result.entityid="12564";
+						out.result.parentid="12520";
+						out.result.wavefile="TTS_fr-FR_4BFC8A619AC232DAE5D7CB5E21CFEB5F.wav";
+						out.result.transfertnumber1="701";
+						out.result.originalid="565";
+						out.result.isleaf="1";
+						out.result.recognitionThresholdMin="60";
+						out.result.recognitionThresholdMax="75";
+						out.result.routingNumberOnNonRecognition="1103";
+						out.result.recognitionAttemptNumber="2";</tag>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="_madameboffyangelique12522">
+    <one-of>
+      <item>
+        <item repeat="0-1">
+          <one-of>
+            <item>MADAME</item>
+          </one-of>
+        </item>
+        <one-of>
+          <item>BOFFY ANGÉLIQUE</item>
+          <item>ANGÉLIQUE BOFFY</item>
+        </one-of>
+      </item>
+      <item>
+        <item>
+          <one-of>
+            <item>MADAME</item>
+          </one-of>
+        </item>
+        <item>BOFFY</item>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="_monsieurgottiromain12566">
+    <one-of>
+      <item>
+        <item repeat="0-1">
+          <one-of>
+            <item>MONSIEUR</item>
+          </one-of>
+        </item>
+        <one-of>
+          <item>GOTTI ROMAIN</item>
+          <item>ROMAIN GOTTI</item>
+        </one-of>
+      </item>
+      <item>
+        <item>
+          <one-of>
+            <item>MONSIEUR</item>
+          </one-of>
+        </item>
+        <item>GOTTI</item>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="_mademoiselletonlaveurdeborah12570">
+    <one-of>
+      <item>
+        <item repeat="0-1">
+          <one-of>
+            <item>MADEMOISELLE</item>
+          </one-of>
+        </item>
+        <one-of>
+          <item>TON LAVEUR DEBORAH</item>
+          <item>DEBORAH TON LAVEUR</item>
+        </one-of>
+      </item>
+      <item>
+        <item>
+          <one-of>
+            <item>MADEMOISELLE</item>
+          </one-of>
+        </item>
+        <item>TON LAVEUR</item>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="_monsieurchiesifrederic12586">
+    <one-of>
+      <item>
+        <item repeat="0-1">
+          <one-of>
+            <item>MONSIEUR</item>
+          </one-of>
+        </item>
+        <one-of>
+          <item>CHIESI FRÉDÉRIC</item>
+          <item>FRÉDÉRIC CHIESI</item>
+        </one-of>
+      </item>
+      <item>
+        <item>
+          <one-of>
+            <item>MONSIEUR</item>
+          </one-of>
+        </item>
+        <item>CHIESI</item>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="_achats12521">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ACHATS</item>
+      <item>APPROVISIONNEMENT</item>
+      <item>ACHAT</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_commercialexport12526">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>COMMERCIAL EXPORT</item>
+      <item>EXPORT</item>
+      <item>COMMECIAL EXPORT</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_commercialfrance12534">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>COMMERCIAL FRANCE</item>
+      <item>COMMERCIAL FRANCE</item>
+      <item>FRANCE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_comptabilite12540">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>COMPTABILITE</item>
+      <item>LA COMPTA</item>
+      <item>COMPTA</item>
+      <item>LA COMPTABILITÉ</item>
+      <item>COMPTABILITÉ
+
+</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_expedition12544">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>EXPEDITION</item>
+      <item>EXPÉDITION</item>
+      <item>LES EXPÉDITIONS</item>
+      <item>L'EXPÉDITION</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_informatique12546">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>INFORMATIQUE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_maintenance12548">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>MAINTENANCE</item>
+      <item>LA MAINTENANCE</item>
+      <item>MAINTENANCE
+</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_methodes12550">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>METHODES</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_ordonnancement12553">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ORDONNANCEMENT</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_production12555">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>PRODUCTION</item>
+      <item>PROD</item>
+      <item>LA PROD</item>
+      <item>LA PRODUCTION</item>
+      <item>PRODUCTION</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_qualite12559">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>QUALITE</item>
+      <item>LA QUALITÉ</item>
+      <item>QUALITÉ</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_technique12565">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>TECHNIQUE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_patients12571">
+    <item repeat="0-1">
+      <one-of>
+        <item>ANNUAIRE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>PATIENTS</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>ANNUAIRE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_bidon12587">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>DÉPARTEMENT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>BIDON</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>DÉPARTEMENT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_validation12590">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>VALIDATION</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_accueil12592">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ACCUEIL</item>
+      <item>STANDARD</item>
+      <item> L'ACCUEIL</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_algologie12594">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ALGOLOGIE</item>
+      <item>CONSULTATION DE LA DOULEUR</item>
+      <item> HYPNOSE</item>
+      <item> DOULEUR</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_anesthesiologie12599">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ANESTHÉSIOLOGIE</item>
+      <item>ANESTHÉSISTE</item>
+      <item> RÉANIMATION</item>
+      <item> ANESTHÉSIE</item>
+      <item> BUREAU DES ANESTHESISTES</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_angiologie12618">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ANGIOLOGIE</item>
+      <item>PHLÉBOLOGIE</item>
+      <item> PHLÉBOLOGUE</item>
+      <item> ANGIOLOGUE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_assistancesociale12624">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ASSISTANCE SOCIALE</item>
+      <item>SOCIAL</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_bureaudupersonnel12626">
+    <one-of>
+      <item>BUREAU DU PERSONNEL</item>
+      <item>SERVICE DU PERSONNEL</item>
+      <item> GESTION DU PERSONNEL</item>
+      <item> GESTION PAIE</item>
+      <item> RESSOURCES HUMAINES</item>
+    </one-of>
+  </rule>
+  <rule id="_cardiologie12628">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>CARDIOLOGIE</item>
+      <item>CARDIO</item>
+      <item> CARDIOLOGUE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_chirurgieplastique12635">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>CHIRURGIE PLASTIQUE</item>
+      <item>RECONSTRUCTRICE</item>
+      <item> ESTHÉTIQUE</item>
+      <item> CHIRURGIE ESTHÉTIQUE</item>
+      <item> CHIRURGIE RECONSTRUCTRICE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_chirurgiethoraciqueetvasculaire12637">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>CHIRURGIE THORACIQUE ET VASCULAIRE</item>
+      <item>CHIRURGIE THORACIQUE</item>
+      <item> CHIRURGIE VASCULAIRE</item>
+      <item> THORACIQUE</item>
+      <item> VASCULAIRE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_contentieux12640">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>CONTENTIEUX</item>
+      <item>RECOUVREMENT</item>
+      <item> LITIGES</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_dentisterie12642">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>DENTISTERIE</item>
+      <item>CHIRURGIE DENTAIRE</item>
+      <item> DENTISTE</item>
+      <item> DENTAIRE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_dermatologie12647">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>DERMATOLOGIE</item>
+      <item>DERMATOLOGUE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_dietetique12649">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>DIÉTÉTIQUE</item>
+      <item>NUTRITIONNISTE</item>
+      <item> NUTRITION</item>
+      <item> ALIMENTATION</item>
+      <item>DIÉTÉTICIENNE</item>
+      <item>DIÉTÉTICIEN</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_digestif12651">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>DIGESTIF</item>
+      <item>PROCTOLOGIE</item>
+      <item> DIGESTIVE</item>
+      <item> CHIRURGIE DIGESTIVE</item>
+      <item> CHIRURGIE PROCTOLOGIQUE</item>
+      <item> PROCTOLOGUE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_dim12656">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>DIM</item>
+      <item>BUREAU MÉDICAL</item>
+      <item> DÉPARTEMENT INFORMATION MÉDICALE</item>
+      <item> PMSI</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_endocrinologie12658">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ENDOCRINOLOGIE</item>
+      <item>DIABÉTOLOGIE</item>
+      <item> DIABÉTOLOGUE</item>
+      <item> DIABÉTE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_gastroenterologie12662">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>GASTROENTÉROLOGIE</item>
+      <item>HÉPATO-GASTROENTÉROLOGIE</item>
+      <item> GASTROLOGUE</item>
+      <item>  GASTROENTÉROLOGUE</item>
+      <item> DOCTEUR REYNALD</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_geriatrie12670">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>GÉRIATRIE</item>
+      <item>GÉRIATRE</item>
+      <item> PERSONNES AGÉES</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_gynecologie12672">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>GYNÉCOLOGIE</item>
+      <item>OBSTÉTRIQUE</item>
+      <item> MATERNITÉ</item>
+      <item> FÉCONDATION IN VITRO</item>
+      <item> GYNÉCOLOGUE</item>
+      <item> OBSTÉTRICIEN</item>
+      <item> OBSTÉTRICIENNE</item>
+      <item> DOCTEUR AOUN</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_kinesitherapie12681">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>KINÉSITHÉRAPIE</item>
+      <item>KINÉSITHÉRAPEUTE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_laboratoiredanalysesmedicales12697">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>LABORATOIRE D'ANALYSES MÉDICALES</item>
+      <item>LABORATOIRE BIOSUD</item>
+      <item> BIOSUD</item>
+      <item> LABO BIOSUD</item>
+      <item> LABORATOIRE</item>
+      <item> LABO</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_maternite12702">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>MATERNITÉ</item>
+      <item>ACCOUCHEMENT</item>
+      <item> SAGE FEMME</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_medecinedusport12704">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>MÉDECINE DU SPORT</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_neurochirurgie12706">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>NEUROCHIRURGIE</item>
+      <item>NEUROCHIRURGIEN</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_neurologie12712">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>NEUROLOGIE</item>
+      <item>NEUROLOGUE</item>
+      <item> APNÉE DU SOMMEIL</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_oncologie12717">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ONCOLOGIE</item>
+      <item>CHIMIOTHÉRAPIE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_ophtalmologie12722">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>OPHTALMOLOGIE</item>
+      <item>ORTHOPTIE</item>
+      <item> OPHTALMOLOGUE</item>
+      <item> OPHTALMO</item>
+      <item> CONSULTATION OPHTALMO</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_orl12729">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ORL</item>
+      <item>CHIRURGIE CERVICO-FACIALE</item>
+      <item> SURDITÉ</item>
+      <item> OREILLE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_orthesie12735">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ORTHÉSIE</item>
+      <item>ORTHÈSES</item>
+      <item> RÉEDUCATION DE LA MAIN</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_orthopediedelahanche12738">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ORTHOPÉDIE DE LA HANCHE</item>
+      <item>CHIRURGIE DE LA HANCHE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_orthopediedelamainetdupoignet12743">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ORTHOPÉDIE DE LA MAIN ET DU POIGNET</item>
+      <item>CHIRURGIE DE LA MAIN ET DU POIGNET</item>
+      <item> URGENCES MAINS</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_orthopediedelepaule12747">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ORTHOPÉDIE DE L'ÉPAULE</item>
+      <item>CHIRURGIE DE L'ÉPAULE</item>
+      <item> SECRÉTARIAT ORTHOPÉDIE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_orthopediedugenou12751">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ORTHOPÉDIE DU GENOU</item>
+      <item>CHIRURGIE DU GENOU</item>
+      <item> SECRÉTARIAT ORTHOPÉDIE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_orthopediedupiedetdelacheville12754">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ORTHOPÉDIE DU PIED ET DE LA CHEVILLE</item>
+      <item>CHIRURGIE DU PIED ET DE LA CHEVILLE</item>
+      <item> SECRÉTARIAT ORTHOPÉDIE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_orthophonie12759">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>ORTHOPHONIE</item>
+      <item>ORTHOPHONISTE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_pediatrie12761">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>PÉDIATRIE</item>
+      <item>PÉDIATRE</item>
+      <item> ENFANT</item>
+      <item> PÉDIATRIQUE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_pharmacie12767">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>PHARMACIE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_pneumologie12771">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>PNEUMOLOGIE</item>
+      <item>ALLERGOLOGIE</item>
+      <item> ALLERGOLOGUE</item>
+      <item>PNEUMOLOGUE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_podologie12777">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>PODOLOGIE</item>
+      <item>PODOLOGUE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_psychiatrie12779">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>PSYCHIATRIE</item>
+      <item>PSYCHIATRE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_psychologie12781">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>PSYCHOLOGIE</item>
+      <item>PSYCOLOGUE</item>
+      <item> PSYCOLOGIE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_radiologie12784">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>RADIOLOGIE</item>
+      <item>RADIOLOGUE</item>
+      <item> MAMOGRAPHIE</item>
+      <item> MAMMO</item>
+      <item> ÉCHOGRAPHIE</item>
+      <item> SCANNÈRE</item>
+      <item> IRÈME</item>
+      <item> IRM</item>
+      <item> RADIOGRAPHIE</item>
+      <item> IMAGERIE</item>
+      <item> SCANNER DES URGENCES</item>
+      <item> IMAGERIE MÉDICALE</item>
+      <item> CENTRE DE RADIOLOGIE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_reeducationfonctionnelle12798">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>RÉÉDUCATION FONCTIONNELLE</item>
+      <item>RÉÉDUCATION</item>
+      <item> RÉADAPTATION FONCTIONNELLE</item>
+      <item> RÉADAPTATION</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_rhumatologie12800">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>RHUMATOLOGIE</item>
+      <item>RHUMATOLOGUE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_servicepardefaut12803">
+    <one-of>
+      <item>SERVICE PAR DEFAUT</item>
+    </one-of>
+  </rule>
+  <rule id="_sterilisation12840">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>STÉRILISATION</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_stomatologie12842">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>STOMATOLOGIE</item>
+      <item>CHIRURGIE MAXILLO-FACIALE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_urgences12846">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>URGENCES</item>
+      <item>LES URGENCES</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_urologie12850">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>UROLOGIE</item>
+      <item>UROLOGUE</item>
+      <item> NEFROLOGUE</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+        <item>SECRÉTARIAT</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_ressourceshumaines12563">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>RESSOURCES HUMAINES</item>
+      <item>AIR HACHE</item>
+      <item>RESPONSABLE AIR HACHE</item>
+      <item>LES RESSOURCES HUMAINES</item>
+      <item>RESSOURCES HUMAINES
+</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+  <rule id="_standardselectarc12564">
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+    <one-of>
+      <item>STANDARD SELECTARC</item>
+      <item>ACCUEIL SELECTARC</item>
+      <item>L'ACCUEIL SELECTARC</item>
+      <item>LA RÉCEPTION</item>
+      <item>LE STANDARD</item>
+      <item>LES RENSEIGNEMENTS</item>
+      <item>L'ACCUEIL</item>
+      <item>RÉCEPTION</item>
+      <item>STANDARD</item>
+      <item>ALLO</item>
+      <item>HELLO</item>
+    </one-of>
+    <item repeat="0-1">
+      <one-of>
+        <item>SERVICE</item>
+      </one-of>
+    </item>
+  </rule>
+</grammar>
