@@ -20,6 +20,6 @@ services:
       - ./db:/usr/local/freeswitch/db
       - ../:/usr/local/freeswitch/xui
       - ./scripts:/usr/local/freeswitch/scripts
-      - ./log:/var/log/freeswitch
+      - ./log:/usr/local/freeswitch/log
 networks:
   xswitch:
