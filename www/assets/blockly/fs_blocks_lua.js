@@ -118,8 +118,8 @@ Blockly.Lua.fsSessionRead = function(block) {
   }
 
   var code = variable_digits + ' = session:read(' + text_min + ', ' +
-    text_max + ', ' +
-    text_sound + ', ' +
+    text_max + ', "' +
+    text_sound + '", ' +
     text_timeout + ', "' +
     text_terminator + '");\n';
   return code;
@@ -379,4 +379,49 @@ Blockly.Lua.audioRecord = function(block) {
   var code = "session:recordFile(" + path + ", " + max_sec + ", " + threshold + ", " + silence_sec + ")";
 
   return code;
+};
+
+// AVM STUFF
+
+Blockly.Lua['DateNow'] = function(block) {
+
+    var code = "Bonjour";
+    
+    return code;
+};
+
+Blockly.Lua['isbetween'] = function(block) {
+    var value_min = Blockly.Lua.valueToCode(block, 'min', Blockly.Lua.ORDER_ATOMIC);
+    var value_max = Blockly.Lua.valueToCode(block, 'max', Blockly.Lua.ORDER_ATOMIC);
+    var value_what = Blockly.Lua.valueToCode(block, 'what', Blockly.Lua.ORDER_ATOMIC);
+
+    var code = "return true";
+    
+    
+    //    if (value_what > value_min && value_what < value_max)
+//    if (value_what > value_min)
+ //   {
+//	code = -1;
+  //}
+   //lse
+    //
+//	code = 0;
+  //}
+    return code;
+};
+
+Blockly.Lua['logfile'] = function(block) {
+    var variable_logdir = Blockly.Lua.variableDB_.getName(block.getFieldValue('LOGDIR'), Blockly.Variables.NAME_TYPE);
+    var value_textlog = Blockly.Lua.valueToCode(block, 'TEXTLOG', Blockly.Lua.ORDER_ATOMIC);
+    // TODO: Assemble Lua into code variable.
+    var code = '...\n';
+    return code;
+};
+Blockly.Lua['createdirectory'] = function(block)
+{
+    var cmd =  Blockly.Lua.valueToCode(block, 'PATH', Blockly.Lua.ORDER_ATOMIC);
+    var m = /^'(.*)'$/.exec(cmd)
+    var code = 'os.execute(\"mkdir -p ';
+    code = code + m[1] + '\")';
+    return code + '\n';
 };

@@ -19,6 +19,5 @@ services:
       - ./conf:/usr/local/freeswitch/conf
       - ./db:/usr/local/freeswitch/db
       - ../:/usr/local/freeswitch/xui
-
 networks:
   xswitch:
