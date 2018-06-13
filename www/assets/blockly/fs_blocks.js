@@ -742,3 +742,66 @@ Blockly.Blocks['tDateField'] = {
     this.setHelpUrl('http://www.example.com/');
   }
 };
+
+// AVM STUFF
+
+Blockly.Blocks['DateNow'] = {
+    init: function() {
+	this.appendDummyInput()
+	    .appendField("Date");
+	this.setOutput(true, "Number");
+	this.setColour(230);
+	this.setTooltip("");
+	this.setHelpUrl("");
+    }
+};
+Blockly.Blocks['isbetween'] = {
+    init: function() {
+	this.appendValueInput("what")
+	    .setCheck("Number")
+	    .appendField("Value");
+	this.appendDummyInput();
+	this.appendValueInput("min")
+	    .setCheck("Number")
+	    .appendField("> Minimum");
+	this.appendValueInput("max")
+	    .setCheck("Number")
+	    .appendField("and value < Maximum");
+	this.setInputsInline(true);
+	this.setOutput(true, "Boolean");
+	this.setColour(210);
+	this.setTooltip("");
+	this.setHelpUrl("");
+    }
+};
+Blockly.Blocks['logfile'] = {
+    init: function() {
+	this.appendDummyInput()
+	    .appendField("Log file")
+	    .appendField(new Blockly.FieldVariable("logdirectory"), "LOGDIR")
+	    .appendField("Text");
+	this.appendValueInput("TEXTLOG")
+	    .setCheck(null);
+	this.setInputsInline(true);
+	this.setPreviousStatement(true, null);
+	this.setNextStatement(true, null);
+	this.setColour(45);
+	this.setTooltip("");
+	this.setHelpUrl("");
+    }
+};
+Blockly.Blocks['createdirectory'] = {
+    init: function() {
+	this.appendDummyInput()
+	    .appendField("CreateDirectory");
+	this.appendValueInput("PATH")
+	    .setCheck(null)
+	    .appendField("Path");
+	this.setInputsInline(true);
+	this.setPreviousStatement(true, null);
+	this.setNextStatement(true, null);
+	this.setColour(45);
+	this.setTooltip("");
+	this.setHelpUrl("");
+    }
+};

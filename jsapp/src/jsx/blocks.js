@@ -607,6 +607,16 @@ var toolbox = `<xml id="toolbox" style="display: none">
 <sep></sep>
 <category name="` + T.translate("Variables") + `" colour="330" custom="VARIABLE"></category>
 <category name="` + T.translate("Functions") + `" colour="290" custom="PROCEDURE"></category>
+<category name="` + T.translate("AvmUp") + `" colour="200">
+		<block type="DateNow">
+		</block>
+		<block type="isbetween">
+		</block>
+		<block type="logfile">
+		</block>
+		<block type="createdirectory">
+		</block>
+</category>
 </xml>
 `
 

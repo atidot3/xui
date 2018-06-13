@@ -1,7 +1,7 @@
 <include>
   <!-- UniMRCP Server MRCPv1 -->
   <profile name="unimrcpserver-mrcp1" version="1">
-    <param name="server-ip" value="10.5.5.152"/>
+    <param name="server-ip" value="10.10.100.40"/>
     <param name="server-port" value="1554"/>
     <param name="resource-location" value=""/>
     <param name="speechsynth" value="speechsynthesizer"/>
