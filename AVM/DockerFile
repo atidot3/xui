@@ -1,3 +1,0 @@
-FROM dujinfang/xswitch-xui-dev
-
-WORKDIR /usr/local/freeswitch/xui
