@@ -21,5 +21,6 @@ services:
       - ../:/usr/local/freeswitch/xui
       - ./scripts:/usr/local/freeswitch/scripts
       - ./log:/usr/local/freeswitch/log
+      - ./sounds:/usr/local/freeswitch/sounds
 networks:
   xswitch:

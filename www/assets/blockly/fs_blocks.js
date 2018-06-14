@@ -776,16 +776,17 @@ Blockly.Blocks['isbetween'] = {
 };
 Blockly.Blocks['logfile'] = {
     init: function() {
-	this.appendDummyInput()
-	    .appendField("Log file")
-	    .appendField(new Blockly.FieldVariable("logdirectory"), "LOGDIR")
+	this.appendValueInput("DIRPATH")
+	    .setCheck(null)
+	    .appendField("LogFile")
+	    .appendField("Path");
+	this.appendValueInput("LOGTEXT")
+	    .setCheck(null)
 	    .appendField("Text");
-	this.appendValueInput("TEXTLOG")
-	    .setCheck(null);
 	this.setInputsInline(true);
 	this.setPreviousStatement(true, null);
 	this.setNextStatement(true, null);
-	this.setColour(45);
+	this.setColour(60);
 	this.setTooltip("");
 	this.setHelpUrl("");
     }

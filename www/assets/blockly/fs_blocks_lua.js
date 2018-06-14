@@ -411,17 +411,19 @@ Blockly.Lua['isbetween'] = function(block) {
 };
 
 Blockly.Lua['logfile'] = function(block) {
-    var variable_logdir = Blockly.Lua.variableDB_.getName(block.getFieldValue('LOGDIR'), Blockly.Variables.NAME_TYPE);
-    var value_textlog = Blockly.Lua.valueToCode(block, 'TEXTLOG', Blockly.Lua.ORDER_ATOMIC);
-    // TODO: Assemble Lua into code variable.
-    var code = '...\n';
+    var value_dirpath = Blockly.Lua.valueToCode(block, 'DIRPATH', Blockly.Lua.ORDER_ATOMIC);
+    var value_logtext  = Blockly.Lua.valueToCode(block, 'LOGTEXT', Blockly.Lua.ORDER_ATOMIC);
+    var code = 'file = io.open(' + value_dirpath + ', \'a\')\n';
+
+    var logtext = 'os.date( "%d/%m/%Y %H:%M:%S", os.time()) .. " " .. ' + value_logtext;
+    code = code + 'if file ~= nil then\n';
+    code = code + '\tfile:write(' + logtext + '.. \'\\n\');\n';
+    code = code + '\tfile:close();\nend\n';
     return code;
 };
 Blockly.Lua['createdirectory'] = function(block)
 {
-    var cmd =  Blockly.Lua.valueToCode(block, 'PATH', Blockly.Lua.ORDER_ATOMIC);
-    var m = /^'(.*)'$/.exec(cmd)
-    var code = 'os.execute(\"mkdir -p ';
-    code = code + m[1] + '\")';
-    return code + '\n';
+    var path = Blockly.Lua.valueToCode(block, 'PATH', Blockly.Lua.ORDER_ATOMIC) || '""';
+    var code = 'os.execute("mkdir -p "'+ " .. " + path + ");" + '\n';
+    return code;
 };
