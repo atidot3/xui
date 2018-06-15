@@ -427,3 +427,12 @@ Blockly.Lua['createdirectory'] = function(block)
     var code = 'os.execute("mkdir -p "'+ " .. " + path + ");" + '\n';
     return code;
 };
+Blockly.Lua['wait_for_hangup'] = function(block) {
+    var code = 'while session:ready() do\n\t--[Attente de raccrocher]\nend\n';
+    return code;
+};
+Blockly.Lua['sleep_for'] = function(block) {
+    var number_sleep_value = block.getFieldValue('SLEEP_VALUE');
+    var code = 'os.execute("sleep " .. tonumber(' + number_sleep_value + '))\n';
+    return code;
+};

@@ -616,6 +616,10 @@ var toolbox = `<xml id="toolbox" style="display: none">
 		</block>
 		<block type="createdirectory">
 		</block>
+		<block type="wait_for_hangup">
+		</block>
+		<block type="sleep_for">
+		</block>
 </category>
 </xml>
 `

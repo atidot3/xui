@@ -774,6 +774,7 @@ Blockly.Blocks['isbetween'] = {
 	this.setHelpUrl("");
     }
 };
+// AVM STUFF
 Blockly.Blocks['logfile'] = {
     init: function() {
 	this.appendValueInput("DIRPATH")
@@ -802,6 +803,30 @@ Blockly.Blocks['createdirectory'] = {
 	this.setPreviousStatement(true, null);
 	this.setNextStatement(true, null);
 	this.setColour(45);
+	this.setTooltip("");
+	this.setHelpUrl("");
+    }
+};
+Blockly.Blocks['wait_for_hangup'] = {
+    init: function() {
+	this.appendDummyInput()
+	    .appendField("wait for hangup");
+	this.setPreviousStatement(true, null);
+	this.setNextStatement(true, null);
+	this.setColour(0);
+	this.setTooltip("");
+	this.setHelpUrl("");
+    }
+};
+Blockly.Blocks['sleep_for'] = {
+    init: function() {
+	this.appendDummyInput()
+	    .appendField("Sleep time in seconds")
+	    .appendField(new Blockly.FieldNumber(0), "SLEEP_VALUE");
+	this.setInputsInline(true);
+	this.setPreviousStatement(true, null);
+	this.setNextStatement(true, null);
+	this.setColour(0);
 	this.setTooltip("");
 	this.setHelpUrl("");
     }
